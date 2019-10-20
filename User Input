@@ -26,18 +26,56 @@ browser. It works in Chrome but not every browser).  Presence Validation - makes
 
 Other Ways to get user input 
 
-1) radio buttons 
-2) select tag
-3) textarea tag
+1) check boxes / radio buttons
 
-
-<input type="radio">
-only one choice like choosing gender
 <input type="checkbox">
 allows users to select and unselect
 
+<input type="radio">
+only one choice like choosing gender
+
+when wanting to force only one answer first create a <form> </form> tag and put everything in
+<input type="radio>
+<input type="radio>
+
+then add labels 
+<label for="dogs">
+<input name="petChoice" id="dogs" type="radio>
+<label for="cats">
+<input name="petChoice" id="cats" type="radio>
+
+then add name="sameName"
+<input name="petChoice" id="dogs" type="radio>
+<label for="cats">
+<input name="petChoice" id="cats" type="radio>
+
+then add value=
+<input name="petChoice" id="dogs" type="radio value="dogs">
+<label for="cats">
+<input name="petChoice" id="cats" type="radio value="cats">
 
 
+2) select tag
+
+create drop down menus 
+on select we need a name="day" 
+option
+for seperate drop down menus create new open and closing select tags
+on option tag change the value to equal something that will be displayed in the browser if you do not want answer to be seen
+
+3) textarea tag
+create inputs that are more than 1 line
+
+<textarea rows="10" cols="10"></textarea>
+
+also want to give a name 
+<textarea name="message" rows="15" cols="30"></textarea>
+
+
+
+<input type="submit">  
+or
+<button>Submit</submit>   if button is the last in a form then it will submit the form
 
 DOB question: best UI for entering date of birth
 https://stackoverflow.com/questions/339956/whats-the-best-ui-for-entering-date-of-birth
