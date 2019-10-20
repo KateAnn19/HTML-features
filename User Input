@@ -1,0 +1,19 @@
+Ways to get user input 
+
+1) radio buttons 
+2) select tag
+3) textarea tag
+
+
+<input type="radio">
+only one choice like choosing gender
+<input type="checkbox">
+allows users to select and unselect
+
+action- the URL to send form data to
+method- the type of HTTP request
+
+<input is what goes inside a form
+
+DOB question: best UI for entering date of birth
+https://stackoverflow.com/questions/339956/whats-the-best-ui-for-entering-date-of-birth
