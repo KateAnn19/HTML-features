@@ -1,4 +1,30 @@
-Ways to get user input 
+- <form> tag to submit all info at once
+- action (where the form sends data to)(if an action isn't specified then the form will go to the exact same place that you are) <form action="http://
+wikipedia.org" method="GET"> of course we're not sending data to wikipedia. we will send it to our own server/database/back-end
+- method (what HTTP method (get/post) - if a method is not specified then it will be a GET request
+action- the URL to send form data to
+method- the type of HTTP request
+- input type
+- placeholder
+- div and span
+- p tag
+- input type = submit (1 type of button)
+- <button> tag (another type of button) 
+- name attribute (creates query string - key/value pairs seperated by ampersands)
+- labels make things accessible to screen readers for visually impaired folks (p tags and h tags could be used but it would not be 
+accessbile to screen readers)
+-two ways to do a label tag   
+<form> <label>Username<input type="text" placeholder="username"></label> </form> (inline)  or
+<form> <label for="username">Username</label> <input id="username" type="text" placeholder="username"> </form>
+-for in the label and id in the input   - need to match 
+
+-simple validations  (forcing rules onto a data structure)
+-cannot leave email blank, password must be between 5-10 characters (see HTML5 for updated code on this)
+- required (you can say required="true" but unnecessary because the fact that it's there means it's true (this does not work in every
+browser. It works in Chrome but not every browser).  Presence Validation - makes sure something is there (required) 
+-data type type of data required in a certain format    just changing type to email in input tag does this
+
+Other Ways to get user input 
 
 1) radio buttons 
 2) select tag
@@ -10,10 +36,8 @@ only one choice like choosing gender
 <input type="checkbox">
 allows users to select and unselect
 
-action- the URL to send form data to
-method- the type of HTTP request
 
-<input is what goes inside a form
+
 
 DOB question: best UI for entering date of birth
 https://stackoverflow.com/questions/339956/whats-the-best-ui-for-entering-date-of-birth
