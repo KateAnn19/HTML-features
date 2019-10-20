@@ -1,0 +1,20 @@
+Validating with just HTML :
+
+PRESENCE VALIDATION 
+1) Check to see that something isn't empty. It's required.
+
+ <input id="username" name="username" type="text" placeholder="username" required> 
+ or
+  <input id="username" name="username" type="text" placeholder="username" required="true">
+  
+  a) note : this does not work in every browser. It will work in Chrome. But it is up to the browser. 
+  
+ Other types of Validation : 
+ 
+ DATA TYPE or FORM of DATA 
+ <label for="username">Email:</label>
+  <input id="username" name="username" type="email" placeholder="email" required>
+  
+  1) by changing type="email" you now validate by data type
+  
+  
